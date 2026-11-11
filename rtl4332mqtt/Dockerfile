@@ -5,8 +5,7 @@
 
 # IMPORTANT: The container needs privileged access to /dev/bus/usb on the host.
 
-ARG BUILD_FROM
-FROM $BUILD_FROM
+FROM ghcr.io/home-assistant/base:3.24
 
 ENV LANG C.UTF-8
 
